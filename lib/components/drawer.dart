@@ -22,7 +22,7 @@ class _MyDrawerState extends State<MyDrawer> {
         padding: EdgeInsets.zero,
         children: [
           const DrawerHeader(
-            decoration: BoxDecoration(color: Colors.blue),
+            decoration: BoxDecoration(color: Colors.deepPurple),
             child: Text('Drawer Header'),
           ),
           ListTile(
