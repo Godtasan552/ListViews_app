@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:list_view_app/ListGallery.dart';
+import 'package:list_view_app/components/drawer.dart';
 import 'package:list_view_app/gallery.dart';
 
 
@@ -39,6 +40,7 @@ class MainApp extends StatelessWidget {
           ),
           centerTitle: true,
         ),
+        drawer: const MyDrawer(),
         body: Padding(
           padding: const EdgeInsets.all(12.0),
           child: Column(
